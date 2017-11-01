@@ -1,0 +1,94 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                Id="58ee5dcb-3dfa-4c8f-a130-1641f969975b">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="5ea9656a-65a7-4705-8cea-e91e09a2bee6">
+            <Content.Layers>
+                <Layer Id="a72dac47-39d7-4c74-aa37-7193417e4dc1" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="d5eaa6d6-4498-4552-8b5a-f0d75430b47e" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Id="414c0d0d-78b8-4d19-87ab-5ee18116f4c8" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="d874c38f-c3c5-4e35-ba94-c726fa323e57" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/01/2017 08:48:11" Id="11bc0e05-2093-4f0c-8387-6044a58b499f">
+            <Scene.KeyFrames>
+                <KeyFrame Id="b77fd7c4-7270-4128-a978-8975884264ed">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="a72dac47-39d7-4c74-aa37-7193417e4dc1">
+                            <Add.Item>
+                                <ListBox Id="cc25fbb8-218d-4b66-a947-570c078c13cc" Panel.Bounds="804,26,194{5,2147483647},476{5,2147483647}">
+                                    <ListBox.Items>
+                                        <Item Text="Item 1" Id="221eff20-9542-4a64-9b9c-3159fb2f9bd8" />
+                                        <Item Text="Item 2" Id="22f47a26-7fd6-4668-8675-97f9dd4d276c" />
+                                    </ListBox.Items>
+                                </ListBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a72dac47-39d7-4c74-aa37-7193417e4dc1">
+                            <Add.Item>
+                                <ListBox FontSize="18" Id="1afb6e7f-d99b-4726-93bc-e02fc3b3f81c" Panel.Bounds="804,26,194{5,2147483647},476{5,2147483647}">
+                                    <ListBox.Items>
+                                        <Item Text="Public chat rooms" Tooltip="link" Id="c156d139-793f-46b7-b738-731f24b04a1d">
+                                            <Item.Selected>
+                                                <CommandNavigate Screen="/Screen.screen" Created="11/01/2017 15:19:24" Id="2b59697b-6bcf-41d9-b23a-d3a23dd7fb4c">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Item.Selected>
+                                        </Item>
+                                        <Item Text="Public chat rooms" Id="04796bca-eaeb-40bb-a61c-c9c69bf0f72b" />
+                                        <Item Text="Public chat rooms" Id="37f655ce-e1ac-451f-9682-98886916fc17" />
+                                        <Item Text="Public chat rooms" Id="8c53da23-51e4-44aa-bde2-759dc5c38cd1" />
+                                        <Item Text="Public chat rooms" Id="549fde2d-d3cb-4a79-b0ce-ee7b12fe7a61" />
+                                        <Item Text="Public chat rooms" Id="cff31c5d-f083-4da9-8eec-b5b9ca6992b9" />
+                                        <Item Text="Public chat rooms" Id="855178d9-0b9f-4202-a548-6220d2c1977f" />
+                                        <Item Text="Public chat rooms" Id="1211c677-4b7b-43aa-859d-6103b3e58748" />
+                                        <Item Text="Public chat rooms" Id="8849f6c3-8fd3-4d7a-8157-fe7a88dd0ea4" />
+                                        <Item Text="Public chat rooms" Id="5022fed8-47b7-4961-957e-c57baf4919a1" />
+                                        <Item Text="Public chat rooms" Id="260cf6b6-20ce-43f6-9862-84de968666f5" />
+                                        <Item Text="Public chat rooms" Id="11d5355c-5753-4b35-bb7b-6b3075a39f06" />
+                                        <Item Text="Public chat rooms" Id="8cd6192f-003e-478d-9235-b1ccdba01f16" />
+                                        <Item Text="Public chat rooms" Id="80ffee16-843e-4ac8-b9c9-00bcf83da394" />
+                                        <Item Text="Public chat rooms" Id="e2b6dccc-cc16-4f0a-b5cf-5b31d76983c4" />
+                                        <Item Text="Public chat rooms" Id="46bae730-d79a-4b79-81e2-a76d681e8b08" />
+                                    </ListBox.Items>
+                                </ListBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a72dac47-39d7-4c74-aa37-7193417e4dc1">
+                            <Add.Item>
+                                <Button Text="Send" Foreground="#FFFF2E2E" FontSize="21" Id="0ea3bbea-0733-4704-872e-6a771ce0c22c" Panel.Bounds="695,514,99{5,2147483647},31{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a72dac47-39d7-4c74-aa37-7193417e4dc1">
+                            <Add.Item>
+                                <TextArea Id="bbd4aa1d-4168-43a5-9d54-54c0b9ccd2ab" Panel.Bounds="26,26,768{5,2147483647},476{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a72dac47-39d7-4c74-aa37-7193417e4dc1">
+                            <Add.Item>
+                                <i:TextArea Text="Message:" Foreground="#FF4281D0" FontFamily="Open Sans" Id="7953d865-9ee3-491c-9c90-4dd826e81dca" Panel.Bounds="224,514,468{22,2147483647},31{31,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a72dac47-39d7-4c74-aa37-7193417e4dc1">
+                            <Add.Item>
+                                <i:TextArea Text="Nickname:" Foreground="#FF349C42" FontFamily="Open Sans" Id="4bf80374-ed6b-442d-a1d5-2587bff84c8c" Panel.Bounds="26,514,195{22,2147483647},31{31,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

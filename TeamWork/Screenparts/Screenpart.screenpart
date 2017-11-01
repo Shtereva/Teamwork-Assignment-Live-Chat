@@ -1,0 +1,45 @@
+﻿<?Infragistics.Models format="xaml" version="3" appVersion="9.2.0.72"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                     xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                     Id="d7ccb84d-b54b-4132-b5a1-b7ec29719d94" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="194" Height="476" Background="#00FFFFFF" Id="b135cadd-ffc6-459f-8a67-79d389f1b2c8">
+            <BorderedContent.Layers>
+                <Layer Id="611bcac1-6e5c-470c-ac35-011b65adb599" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="5da22c72-eade-4816-8175-3086eb203e52" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="7d12b910-20df-463b-93a6-9342902d404e" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="1f106fa0-7059-4c30-81c6-d5f474678c3d" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="11/01/2017 15:06:00" Id="9ac1b09c-722c-4307-af3c-60535e2472e5">
+            <Scene.KeyFrames>
+                <KeyFrame Id="8c0735ab-0e53-46a3-9f1f-b06835e7efbd">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="611bcac1-6e5c-470c-ac35-011b65adb599">
+                            <Add.Item>
+                                <ListBox FontSize="18" Id="1afb6e7f-d99b-4726-93bc-e02fc3b3f81c" Panel.Bounds="0,0,194{5,2147483647},476{5,2147483647}">
+                                    <ListBox.Items>
+                                        <Item Text="Public chat rooms" Id="c156d139-793f-46b7-b738-731f24b04a1d" />
+                                        <Item Text="Public chat rooms" Id="04796bca-eaeb-40bb-a61c-c9c69bf0f72b" />
+                                        <Item Text="Public chat rooms" Id="37f655ce-e1ac-451f-9682-98886916fc17" />
+                                        <Item Text="Public chat rooms" Id="8c53da23-51e4-44aa-bde2-759dc5c38cd1" />
+                                        <Item Text="Public chat rooms" Id="549fde2d-d3cb-4a79-b0ce-ee7b12fe7a61" />
+                                    </ListBox.Items>
+                                </ListBox>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>
