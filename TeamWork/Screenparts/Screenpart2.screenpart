@@ -1,0 +1,43 @@
+﻿<?Infragistics.Models format="xaml" version="3" appVersion="9.2.0.72"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                     xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                     Id="2cd07ec3-8d18-4190-98af-6da42ee6d8c1" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="580" Height="356" Background="#00FFFFFF" Id="a2d32b1d-61ed-4661-ad93-3ed1f09e9b0b">
+            <BorderedContent.Layers>
+                <Layer Id="7ebea6e5-b398-4996-895f-c11b63ecd854" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="90ad0e8f-5f20-4081-a315-f80826805b0a" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="b610e384-82fe-4028-b653-5b5432d5ac7e" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="d34e7217-d763-411d-866a-d5bd733a3e6f" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="11/03/2017 12:59:19" Id="41e65cf5-d85a-47a9-91f8-386dff320e22">
+            <Scene.KeyFrames>
+                <KeyFrame Id="cd347a59-3517-4326-8c82-268410d3c0ca">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="7ebea6e5-b398-4996-895f-c11b63ecd854">
+                            <Add.Item>
+                                <ListBox Id="56ec750e-3d6f-4dad-bf0a-f4ae4114d315" Panel.Bounds="0,0,580{5,2147483647},356{5,2147483647}">
+                                    <ListBox.Items>
+                                        <Item Text="Item 1" Id="9129c1a2-8c64-44ba-b3a7-69a56f7b88d8" />
+                                        <Item Text="Item 2" Id="1e2f0746-cbe0-4ae0-857e-10cbff722a76" />
+                                        <Item Text="New Item" Opacity="1" Id="dd194e27-2ce5-4fe1-9f90-18e69698b9d2" />
+                                    </ListBox.Items>
+                                </ListBox>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>
