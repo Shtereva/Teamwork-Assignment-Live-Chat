@@ -1,7 +1,7 @@
-﻿<?Infragistics.Models format="xaml" version="3" appVersion="9.2.0.72"?>
+﻿<?Infragistics.Models format="xaml" version="3" appVersion="9.2.1000.51"?>
 <ScreenPart xmlns="http://prototypes.infragistics.com/"
-                                                                                     xmlns:d="http://prototypes.infragistics.com/views/design"
-                                                                                     Id="8d2bcabd-144a-4ab4-a803-8bd6b730b880" d:Design.ShowGuides="False">
+                                                                                        xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                        Id="8d2bcabd-144a-4ab4-a803-8bd6b730b880" d:Design.ShowGuides="False">
     <ScreenPart.Content>
         <BorderedContent Width="206" Height="47" Background="#00FFFFFF" Id="89f979f2-3322-4f8d-beb7-cb34860705ce">
             <BorderedContent.Layers>

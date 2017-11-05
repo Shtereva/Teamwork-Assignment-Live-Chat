@@ -1,6 +1,6 @@
-﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
 <Page xmlns="http://prototypes.infragistics.com/"
-                                                                                Id="007f19c3-8660-4211-84d5-1c004a1b5dfa">
+                                                                                   Id="007f19c3-8660-4211-84d5-1c004a1b5dfa">
     <Page.Content>
         <Content Width="1024" Height="768" Id="f5cae43c-fd7f-4b1d-98b5-e5f79910da9e">
             <Content.Layers>
@@ -27,7 +27,7 @@
                             <Add.Item>
                                 <Icon Color="#FF75D181" CatalogId="fa-user-plus" Scale="1,1" RotationAngle="0" Id="7f9fa876-d8c4-4ded-8dda-c79198124f73" Name="https://www.google.bg/?gfe_rd=cr&amp;dcr=0&amp;ei=ben5WZnZF6yt8weforjwAw" Panel.Bounds="903,198,32{5,2147483647},32{5,2147483647}">
                                     <Icon.Click>
-                                        <CommandNavigate Screen="/Screen.screen" Created="11/01/2017 15:34:33" Id="9b91d08b-626e-4a61-b2aa-bb53a6fd5af6">
+                                        <CommandNavigate Screen="/Message anonymously .screen" Created="11/01/2017 15:34:33" Id="9b91d08b-626e-4a61-b2aa-bb53a6fd5af6">
                                             <CommandNavigate.Transition>
                                                 <NavigateTransition Duration="0" />
                                             </CommandNavigate.Transition>
