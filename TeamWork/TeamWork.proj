@@ -2,7 +2,7 @@
 <Project xmlns="http://prototypes.infragistics.com/"
                                                                                      Id="O3HZM4MDXZDE" StartScreens="/Join Public.screen" IndigoVersion="9" RecentColors="#FF6397C4,#FFEDEDDC,#FFE9F0DA,#FFFBD0AD,#FFFFFFFF,#FF75D181,#FFA3E0AB,#FF717171,#FF203E57,#FFBCD290" LastUsedFonts="Georgia,Courier New,Calibri,Roboto,Open Sans">
     <Project.Defaults>
-        <ProjectDefaults Viewport="1024,768">
+        <ProjectDefaults Viewport="1280,1024">
             <ProjectDefaults.Device>
                 <DeviceInfo Id="none" Orientation="None" />
             </ProjectDefaults.Device>
