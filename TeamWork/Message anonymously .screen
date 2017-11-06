@@ -3,7 +3,7 @@
                                                                                    xmlns:i="http://prototypes.infragistics.com/ios7/"
                                                                                    Id="58ee5dcb-3dfa-4c8f-a130-1641f969975b">
     <Page.Content>
-        <Content Width="1024" Height="768" Id="5ea9656a-65a7-4705-8cea-e91e09a2bee6">
+        <Content Width="1280" Height="1024" Id="5ea9656a-65a7-4705-8cea-e91e09a2bee6">
             <Content.Layers>
                 <Layer Id="a72dac47-39d7-4c74-aa37-7193417e4dc1" Panel.Layout="Stretch" />
                 <AnnotationsLayer Id="d5eaa6d6-4498-4552-8b5a-f0d75430b47e" Panel.Layout="Stretch" />
