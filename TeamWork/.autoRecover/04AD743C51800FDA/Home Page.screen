@@ -2,7 +2,7 @@
 <Page xmlns="http://prototypes.infragistics.com/"
                                                                                    Id="007f19c3-8660-4211-84d5-1c004a1b5dfa">
     <Page.Content>
-        <Content Width="1024" Height="768" Id="f5cae43c-fd7f-4b1d-98b5-e5f79910da9e">
+        <Content Width="1280" Height="1024" Id="f5cae43c-fd7f-4b1d-98b5-e5f79910da9e">
             <Content.Layers>
                 <Layer Id="ef08f6ac-17fd-48b6-b49b-32265f0c14e5" Panel.Layout="Stretch" />
                 <AnnotationsLayer Id="9785d069-a738-42e7-a740-95950814fda5" Panel.Layout="Stretch" />
@@ -322,6 +322,11 @@
                         <Add Property="GuidesInfo.Guides" Target="f4669466-071f-48c0-b1ee-f2159aa482a6">
                             <Add.Item>
                                 <Guide Position="1280" Id="6d768cd5-87e6-46ee-8c40-33106d5a7661" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="GuidesInfo.Guides" Target="f4669466-071f-48c0-b1ee-f2159aa482a6">
+                            <Add.Item>
+                                <Guide Position="1280" Id="6d8a48f4-376d-4d2e-93e6-0cc7cf84ec22" />
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>
