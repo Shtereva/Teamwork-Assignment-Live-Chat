@@ -1,0 +1,205 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   Id="4eac9446-241d-45c4-bf94-ad51e3424f7c">
+    <Page.Content>
+        <Content Width="1280" Height="1024" Id="517b8cf7-7078-4bae-831d-baeb95f015fc">
+            <Content.Layers>
+                <Layer Id="73f70178-d775-4d7e-b477-2d55a9414a7b" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="24b91d1c-1a04-428c-bd71-7a20c3a13620" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Id="7f39d8f7-ac65-437c-b1c0-ae380466ce24" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="4ef8afdc-7963-4a1f-a144-e37079e73f21" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/06/2017 21:28:16" Id="9ae55894-2f68-4189-854d-7358943ef1c8">
+            <Scene.KeyFrames>
+                <KeyFrame Id="ae0c7e58-18e0-495f-896b-3cffd8c19fd2">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="73f70178-d775-4d7e-b477-2d55a9414a7b">
+                            <Add.Item>
+                                <Rectangle Background="#FF2C768A" Id="12bcaa33-5963-4f63-bd4b-20f2cbc16fd8" Panel.Bounds="0,0,1280{5,2147483647},37{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="73f70178-d775-4d7e-b477-2d55a9414a7b">
+                            <Add.Item>
+                                <Label RichText="Live-Chat" Foreground="#FF75D181" FontSize="18" FontFamily="Georgia" FontStyle="Bold" Id="c7f0a97c-1daa-4f0d-8ef9-15209d631157" Panel.Bounds="31,10,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="73f70178-d775-4d7e-b477-2d55a9414a7b">
+                            <Add.Item>
+                                <Icon Color="#FFA3E0AB" CatalogId="linea-message-txt" Id="e6917729-05e6-460f-857a-ff84b17e6dd7" Panel.Bounds="128,8,23{5,2147483647},23{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="73f70178-d775-4d7e-b477-2d55a9414a7b">
+                            <Add.Item>
+                                <Label RichText="&lt;Run Foreground=&quot;#FFFFFFFF&quot; &gt;Hello Username&lt;/Run&gt;" FontFamily="Georgia" Id="54d0e524-e6fc-486e-be65-e1e810a35ab2" Panel.Bounds="979,10,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="73f70178-d775-4d7e-b477-2d55a9414a7b">
+                            <Add.Item>
+                                <Rectangle Background="#FFEDEDDC" Id="0e330826-677b-497b-a183-6e7f958f2e67" ControlExtensions.Locked="True" Panel.Bounds="0,35,1279{5,2147483647},1023{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="73f70178-d775-4d7e-b477-2d55a9414a7b">
+                            <Add.Item>
+                                <Title RichText="Create Account" FontFamily="Calibri" FontStyle="Bold" Id="16752788-67b8-4e90-96dc-ffba1e43ebd3" Panel.Bounds="530,61,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="73f70178-d775-4d7e-b477-2d55a9414a7b">
+                            <Add.Item>
+                                <Image Id="cf5f1102-7436-4263-b800-12914212fe4b" Panel.Bounds="169,159,126{5,2147483647},150{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="73f70178-d775-4d7e-b477-2d55a9414a7b">
+                            <Add.Item>
+                                <Button Text="Change..." FontFamily="Calibri" Id="c83f0146-3565-4015-9f77-663bdbdedf0a" Panel.Bounds="192,333,80{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="73f70178-d775-4d7e-b477-2d55a9414a7b">
+                            <Add.Item>
+                                <Label RichText="Nickname:" FontSize="18" FontFamily="Calibri" Id="a36a9bb6-21d6-4009-b4d3-1e209131f98c" Panel.Bounds="470,159,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="73f70178-d775-4d7e-b477-2d55a9414a7b">
+                            <Add.Item>
+                                <Label RichText="First Name:" FontSize="18" FontFamily="Calibri" Id="1f795a55-dbab-4d50-a489-965a6afc9d2b" Panel.Bounds="470,207,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="73f70178-d775-4d7e-b477-2d55a9414a7b">
+                            <Add.Item>
+                                <Label RichText="Last Name:" FontSize="18" FontFamily="Calibri" Id="505a9e82-0f5d-42ec-b799-ee23acfe67cf" Panel.Bounds="467,255,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="73f70178-d775-4d7e-b477-2d55a9414a7b">
+                            <Add.Item>
+                                <TextBox Text="Nicname" FontFamily="Calibri" Id="6b0986a7-b1c5-4435-9ea0-4ca38b3138cf" Panel.Bounds="563,159,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="73f70178-d775-4d7e-b477-2d55a9414a7b">
+                            <Add.Item>
+                                <TextBox Text="First Name" FontFamily="Calibri" Id="0f3986c9-2fdd-491e-90aa-4938e590e5df" Panel.Bounds="563,207,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="73f70178-d775-4d7e-b477-2d55a9414a7b">
+                            <Add.Item>
+                                <TextBox Text="Last Name" FontFamily="Calibri" Id="7cd6a26e-3570-4366-a6f9-a3eb3fdaa1b6" Panel.Bounds="563,255,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="73f70178-d775-4d7e-b477-2d55a9414a7b">
+                            <Add.Item>
+                                <Label RichText="Password:" FontSize="18" FontFamily="Calibri" Id="2f83a5b5-98b7-4822-bb1d-4a488edcb476" Panel.Bounds="193,575,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="73f70178-d775-4d7e-b477-2d55a9414a7b">
+                            <Add.Item>
+                                <Label RichText="City:" FontSize="18" FontFamily="Calibri" Id="c0525db1-1a1c-4402-85ca-9d6e0ad6ebc8" Panel.Bounds="194,621,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="73f70178-d775-4d7e-b477-2d55a9414a7b">
+                            <Add.Item>
+                                <Label RichText="Country:" FontSize="18" FontFamily="Calibri" Id="30164fac-07c6-4238-baec-aba377e7171d" Panel.Bounds="192,667,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="73f70178-d775-4d7e-b477-2d55a9414a7b">
+                            <Add.Item>
+                                <Label RichText="Gender:" FontSize="18" FontFamily="Calibri" Id="f2ed45fc-5fe6-4960-aa00-2a687e450c7f" Panel.Bounds="193,713,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="73f70178-d775-4d7e-b477-2d55a9414a7b">
+                            <Add.Item>
+                                <TextBox Text="City" FontFamily="Calibri" Id="463b6278-190d-40e7-84f6-6cce220a4108" Panel.Bounds="283,621,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="73f70178-d775-4d7e-b477-2d55a9414a7b">
+                            <Add.Item>
+                                <PasswordBox Password="Password" FontFamily="Calibri" Id="53032281-1c5d-4979-9aaa-b82c62dc490c" Panel.Bounds="283,575,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="73f70178-d775-4d7e-b477-2d55a9414a7b">
+                            <Add.Item>
+                                <TextBox Text="Country" FontFamily="Calibri" Id="8b6d3132-9cef-4c39-8e09-eb2ff52093c0" Panel.Bounds="283,667,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="73f70178-d775-4d7e-b477-2d55a9414a7b">
+                            <Add.Item>
+                                <ComboBox IsOpen="True" Hint="Gender" FontFamily="Calibri" Id="a1d68e98-bc60-4d1a-9664-60e83f3c6f04" Panel.Bounds="283,703,150{5,2147483647},28{5,2147483647}">
+                                    <ComboBox.Items>
+                                        <Item Text="Male" Id="8c6bc192-1890-48ac-b151-382a6917c965" />
+                                        <Item Text="Female" Id="8afc0a50-9ec1-4e9f-ad1a-1eede74714fa" />
+                                    </ComboBox.Items>
+                                </ComboBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="73f70178-d775-4d7e-b477-2d55a9414a7b">
+                            <Add.Item>
+                                <TextArea FontFamily="Calibri" Id="b5a3aeac-bda4-49fe-97f0-88a437c2653a" Panel.Bounds="755,621,272{5,2147483647},178{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="73f70178-d775-4d7e-b477-2d55a9414a7b">
+                            <Add.Item>
+                                <Label RichText="About you:" FontSize="18" FontFamily="Calibri" Id="a647cc5c-e42b-47b9-93c0-09b40d68662c" Panel.Bounds="850,575,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="73f70178-d775-4d7e-b477-2d55a9414a7b">
+                            <Add.Item>
+                                <Label RichText="E-mail:" FontSize="18" FontFamily="Calibri" Id="40064705-c157-4d63-8862-ba1386e93922" Panel.Bounds="193,529,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="73f70178-d775-4d7e-b477-2d55a9414a7b">
+                            <Add.Item>
+                                <Line Thickness="2" Background="#00FFFFFF" Id="0998e950-0c80-486d-8df7-dd0b2cbf38b0" Panel.Bounds="0,427,1280,18">
+                                    <Line.StartPoint>
+                                        <Point Id="a56a768e-5a94-4895-84d1-72d031270d59" />
+                                    </Line.StartPoint>
+                                    <Line.Segments>
+                                        <Segment Id="0cd5f40d-7219-481e-95b4-a6640fc8b20a">
+                                            <Segment.EndPoint>
+                                                <Point X="120" Id="6c4f9a1c-71e0-45db-9e69-a5e79bf7ee1a" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </Line.Segments>
+                                </Line>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="73f70178-d775-4d7e-b477-2d55a9414a7b">
+                            <Add.Item>
+                                <TextBox Text="E-mail" FontFamily="Calibri" Id="1bf4d09c-4988-40cc-8088-7e3a1c177faf" Panel.Bounds="283,529,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="73f70178-d775-4d7e-b477-2d55a9414a7b">
+                            <Add.Item>
+                                <Button Text="Login" FontFamily="Calibri" Id="068ee1ee-1973-4fa0-80a7-33744277cd1b" Panel.Bounds="1109,8,61{5,2147483647},20{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="73f70178-d775-4d7e-b477-2d55a9414a7b">
+                            <Add.Item>
+                                <Button Text="Register" FontFamily="Calibri" Id="b86334c6-4c13-43c2-8657-1edec404e794" Panel.Bounds="1206,8,61{5,2147483647},20{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="73f70178-d775-4d7e-b477-2d55a9414a7b">
+                            <Add.Item>
+                                <Button Text="Create" FontFamily="Calibri" Id="f62674b5-fe45-4613-b639-690b7de1ab80" Panel.Bounds="562,844,154{5,2147483647},53{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Customize Profile.screen" Created="11/06/2017 21:38:49" Id="d4a1589a-7014-4396-8f4d-3d83bfb6240f">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
