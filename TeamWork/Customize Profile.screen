@@ -190,6 +190,16 @@
                                 <Label RichText="&lt;Run Foreground=&quot;#FFFFFFFF&quot; &gt;My Profile&lt;/Run&gt;" FontFamily="Georgia" Id="a84c785e-e5a0-459e-9ebf-dbb81de7de1b" Panel.Bounds="1107,13,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
+                        <Add Property="Panel.Children" Target="98e01ddc-221b-47f8-8ef9-0ef3cc35b8d9">
+                            <Add.Item>
+                                <Label RichText="E-mail:" FontSize="18" FontFamily="Calibri" Id="940cd52b-592f-4e00-862f-d067ef72a834" Panel.Bounds="193,529,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="98e01ddc-221b-47f8-8ef9-0ef3cc35b8d9">
+                            <Add.Item>
+                                <Label RichText="User@email.com" FontSize="18" FontFamily="Calibri" Id="3e9b7ac9-dbd7-4845-bfad-a3ae62c301d9" Panel.Bounds="283,529,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
                     </KeyFrame.Operations>
                 </KeyFrame>
             </Scene.KeyFrames>
