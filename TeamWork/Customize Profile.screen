@@ -27,7 +27,7 @@
                             <Add.Item>
                                 <Rectangle Background="#FFEDEDDC" Id="0cb7d33f-a789-4132-a387-da18415d45c8" Panel.Bounds="0,37,1280{5,2147483647},1011{5,2147483647}">
                                     <Rectangle.Click>
-                                        <CommandNavigate Screen="/Join Public.screen" Created="11/03/2017 18:19:05" Id="16e778ad-313a-44de-be7e-24b452082653">
+                                        <CommandNavigate Screen="/Home Page.screen" Created="11/03/2017 18:19:05" Id="16e778ad-313a-44de-be7e-24b452082653">
                                             <CommandNavigate.Transition>
                                                 <NavigateTransition Duration="0" />
                                             </CommandNavigate.Transition>
