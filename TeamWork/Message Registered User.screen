@@ -43,6 +43,12 @@
                                         <Item Text="Public chat room" Id="549fde2d-d3cb-4a79-b0ce-ee7b12fe7a61" />
                                         <Item Text="Public chat room" Id="cff31c5d-f083-4da9-8eec-b5b9ca6992b9" />
                                         <Item Text="Public chat room" Id="8e6fe296-cb56-4486-9dee-c7e5af3ace04" />
+                                        <Item Text="Private chat room" Id="75e74d32-3fc4-409d-9901-8421bc167ce0" />
+                                        <Item Text="Private chat room" Id="4acdbf32-22ed-4e75-ae5a-82fbf2f931a2" />
+                                        <Item Text="Private chat room" Id="59822d38-453e-4c5c-b9f9-79d84b06cbb3" />
+                                        <Item Text="Private chat room" Id="abfb2c7f-c161-4c40-9a0d-05ee05d9abc1" />
+                                        <Item Text="Private chat room" Id="db765b0c-c472-4934-9679-3575cf68b31a" />
+                                        <Item Text="Private chat room" Id="2b6dd170-634a-4257-aff4-52efce6b6179" />
                                     </ListBox.Items>
                                 </ListBox>
                             </Add.Item>
@@ -64,7 +70,7 @@
                         </Add>
                         <Add Property="Panel.Children" Target="a72dac47-39d7-4c74-aa37-7193417e4dc1">
                             <Add.Item>
-                                <i:TextArea Text="Nickname: Guest" Foreground="#FF349C42" FontFamily="Open Sans" Id="4bf80374-ed6b-442d-a1d5-2587bff84c8c" Panel.Bounds="26,682,195{22,2147483647},31{31,2147483647}" />
+                                <i:TextArea Text="Nickname: Username" Foreground="#FF349C42" FontFamily="Open Sans" Id="4bf80374-ed6b-442d-a1d5-2587bff84c8c" Panel.Bounds="26,682,195{22,2147483647},31{31,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a72dac47-39d7-4c74-aa37-7193417e4dc1">
@@ -89,12 +95,7 @@
                         </Add>
                         <Add Property="Panel.Children" Target="a72dac47-39d7-4c74-aa37-7193417e4dc1">
                             <Add.Item>
-                                <Title RichText="&lt;Run FontWeight=&quot;Bold&quot; &gt;[Public chat room [Name]]&lt;/Run&gt;" Align="Center" FontFamily="Calibri" Id="391f3c01-b968-495f-a982-05d6cb833fd2" Panel.Bounds="329,82,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="a72dac47-39d7-4c74-aa37-7193417e4dc1">
-                            <Add.Item>
-                                <Button Text="Login" FontFamily="Calibri" Id="608d52a6-d018-4070-84d5-2a58b432c1b8" Panel.Bounds="1109,8,61{5,2147483647},20{5,2147483647}" />
+                                <Title RichText="&lt;Run FontWeight=&quot;Bold&quot; &gt;[Private chat room [Name]]&lt;/Run&gt;" Align="Center" FontFamily="Calibri" Id="391f3c01-b968-495f-a982-05d6cb833fd2" Panel.Bounds="329,82,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a72dac47-39d7-4c74-aa37-7193417e4dc1">
@@ -224,12 +225,43 @@
                         </Add>
                         <Add Property="Panel.Children" Target="a72dac47-39d7-4c74-aa37-7193417e4dc1">
                             <Add.Item>
-                                <Button Text="Register" FontFamily="Calibri" Id="f0b60b49-2b29-4def-bf9b-21064021ccda" Panel.Bounds="1206,8,61{5,2147483647},20{5,2147483647}" />
+                                <Icon CatalogId="fa-user-plus" Scale="1,1" RotationAngle="0" Id="61e460a0-4ed9-4752-8d13-f3e32e67c1cc" Name="https://www.google.bg/?gfe_rd=cr&amp;dcr=0&amp;ei=ben5WZnZF6yt8weforjwAw" Panel.Bounds="735,87,32{5,2147483647},32{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a72dac47-39d7-4c74-aa37-7193417e4dc1">
                             <Add.Item>
-                                <Icon Color="#FF75D181" CatalogId="fa-user-plus" Scale="1,1" RotationAngle="0" Id="f8b94087-5e06-4546-ba64-8afa1db99de6" Name="https://www.google.bg/?gfe_rd=cr&amp;dcr=0&amp;ei=ben5WZnZF6yt8weforjwAw" Panel.Bounds="728,87,32{5,2147483647},32{5,2147483647}" />
+                                <Button Text="Logout" FontFamily="Calibri" Id="f3e6e98a-a71e-42ba-9a30-54ce104c1f53" Panel.Bounds="1217,8,49{5,2147483647},20{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Home Page.screen" Created="11/06/2017 21:16:11" Id="08dbf9e9-e0e8-4237-8644-d3fea3523505">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a72dac47-39d7-4c74-aa37-7193417e4dc1">
+                            <Add.Item>
+                                <Label RichText="&lt;Run Foreground=&quot;#FFFFFFFF&quot; &gt;My Profile&lt;/Run&gt;" FontFamily="Georgia" Id="ce87f279-e503-4d1d-9e89-68ccbea50326" Panel.Bounds="1107,11,5*{5,2147483647},5*{5,2147483647}">
+                                    <Label.Click>
+                                        <CommandNavigate Screen="/Customize Profile.screen" Created="11/06/2017 21:16:26" Id="8cbc79bd-77eb-41a2-b818-a7e57a3d7d39">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Label.Click>
+                                </Label>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a72dac47-39d7-4c74-aa37-7193417e4dc1">
+                            <Add.Item>
+                                <Label RichText="&lt;Run Foreground=&quot;#FFFFFFFF&quot; &gt;Hello Username&lt;/Run&gt;" FontFamily="Georgia" Id="98586ac1-97e6-4f6a-be98-9ec81d8f5236" Panel.Bounds="964,11,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a72dac47-39d7-4c74-aa37-7193417e4dc1">
+                            <Add.Item>
+                                <Image Id="afb6bb70-c476-4435-a9ee-8456692ea4ae" Panel.Bounds="31,43,90{5,2147483647},117{5,2147483647}" />
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>
