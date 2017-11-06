@@ -70,7 +70,15 @@
                         </Add>
                         <Add Property="Panel.Children" Target="ef08f6ac-17fd-48b6-b49b-32265f0c14e5">
                             <Add.Item>
-                                <Button Text="Login:" FontFamily="Open Sans" Id="dd729f60-7682-4409-ba6c-773ccc7456e8" Panel.Bounds="222,362,80{5,2147483647},35{5,2147483647}" />
+                                <Button Text="Login:" FontFamily="Open Sans" Id="dd729f60-7682-4409-ba6c-773ccc7456e8" Panel.Bounds="222,362,80{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Message Registered User.screen" Created="11/06/2017 21:35:32" Id="a207845f-b4d9-486f-87ef-989c22c7f0ae">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="ef08f6ac-17fd-48b6-b49b-32265f0c14e5">
@@ -83,6 +91,13 @@
                                             </CommandNavigate.Transition>
                                         </CommandNavigate>
                                     </Button.Click>
+                                    <Button.DoubleClick>
+                                        <CommandNavigate Screen="/Register User.screen" Created="11/06/2017 21:41:19" Id="69ea4a92-65a8-42f3-8fb9-6fcfb8e0d5ae">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.DoubleClick>
                                 </Button>
                             </Add.Item>
                         </Add>
@@ -106,22 +121,54 @@
                         </Add>
                         <Add Property="Panel.Children" Target="ef08f6ac-17fd-48b6-b49b-32265f0c14e5">
                             <Add.Item>
-                                <Icon CatalogId="fa-user-plus" Scale="1,1" RotationAngle="0" Id="895983bf-1953-4a6d-9b7c-c346e55859b6" Name="https://www.google.bg/?gfe_rd=cr&amp;dcr=0&amp;ei=ben5WZnZF6yt8weforjwAw" Panel.Bounds="903,302,32{5,2147483647},32{5,2147483647}" />
+                                <Icon CatalogId="fa-user-plus" Scale="1,1" RotationAngle="0" Id="895983bf-1953-4a6d-9b7c-c346e55859b6" Name="https://www.google.bg/?gfe_rd=cr&amp;dcr=0&amp;ei=ben5WZnZF6yt8weforjwAw" Panel.Bounds="903,302,32{5,2147483647},32{5,2147483647}">
+                                    <Icon.Click>
+                                        <CommandNavigate Screen="/Message Registered User.screen" Created="11/06/2017 21:43:36" Id="3ff28a98-d639-42ea-90bc-484e656b1e26">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Icon.Click>
+                                </Icon>
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="ef08f6ac-17fd-48b6-b49b-32265f0c14e5">
                             <Add.Item>
-                                <Icon CatalogId="fa-user-plus" Scale="1,1" RotationAngle="0" Id="9ebb5931-0e47-4e82-8f30-be018e8a4278" Name="https://www.google.bg/?gfe_rd=cr&amp;dcr=0&amp;ei=ben5WZnZF6yt8weforjwAw" Panel.Bounds="903,358,32{5,2147483647},32{5,2147483647}" />
+                                <Icon CatalogId="fa-user-plus" Scale="1,1" RotationAngle="0" Id="9ebb5931-0e47-4e82-8f30-be018e8a4278" Name="https://www.google.bg/?gfe_rd=cr&amp;dcr=0&amp;ei=ben5WZnZF6yt8weforjwAw" Panel.Bounds="903,358,32{5,2147483647},32{5,2147483647}">
+                                    <Icon.Click>
+                                        <CommandNavigate Screen="/Message Registered User.screen" Created="11/06/2017 21:43:44" Id="60d2be8d-1f1d-4b08-989b-b078d463765a">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Icon.Click>
+                                </Icon>
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="ef08f6ac-17fd-48b6-b49b-32265f0c14e5">
                             <Add.Item>
-                                <Icon Color="#FFFF2E2E" CatalogId="fa-user-plus" Scale="1,1" RotationAngle="0" Id="052cbf82-197b-4bea-a8b6-786dbc565a38" Name="https://www.google.bg/?gfe_rd=cr&amp;dcr=0&amp;ei=ben5WZnZF6yt8weforjwAw" Panel.Bounds="903,414,32{5,2147483647},32{5,2147483647}" />
+                                <Icon Color="#FFFF2E2E" CatalogId="fa-user-plus" Scale="1,1" RotationAngle="0" Id="052cbf82-197b-4bea-a8b6-786dbc565a38" Name="https://www.google.bg/?gfe_rd=cr&amp;dcr=0&amp;ei=ben5WZnZF6yt8weforjwAw" Panel.Bounds="903,414,32{5,2147483647},32{5,2147483647}">
+                                    <Icon.Click>
+                                        <CommandNavigate Screen="/Message Registered User.screen" Created="11/06/2017 21:43:52" Id="14526484-ba91-455c-9352-79b90641fac7">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Icon.Click>
+                                </Icon>
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="ef08f6ac-17fd-48b6-b49b-32265f0c14e5">
                             <Add.Item>
-                                <Icon Color="#FFE70000" CatalogId="fa-user-plus" Scale="1,1" RotationAngle="0" Id="b8059f25-4b78-4977-acf4-d0c52e8e7c3b" Name="https://www.google.bg/?gfe_rd=cr&amp;dcr=0&amp;ei=ben5WZnZF6yt8weforjwAw" Panel.Bounds="903,466,32{5,2147483647},32{5,2147483647}" />
+                                <Icon Color="#FFE70000" CatalogId="fa-user-plus" Scale="1,1" RotationAngle="0" Id="b8059f25-4b78-4977-acf4-d0c52e8e7c3b" Name="https://www.google.bg/?gfe_rd=cr&amp;dcr=0&amp;ei=ben5WZnZF6yt8weforjwAw" Panel.Bounds="903,466,32{5,2147483647},32{5,2147483647}">
+                                    <Icon.Click>
+                                        <CommandNavigate Screen="/Message Registered User.screen" Created="11/06/2017 21:43:59" Id="53b061c0-b802-4bd2-b5e1-16489ab16c98">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Icon.Click>
+                                </Icon>
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="ef08f6ac-17fd-48b6-b49b-32265f0c14e5">
@@ -211,7 +258,15 @@
                         </Add>
                         <Add Property="Panel.Children" Target="ef08f6ac-17fd-48b6-b49b-32265f0c14e5">
                             <Add.Item>
-                                <Button Text="Login" FontFamily="Calibri" Id="f549ab1f-4b7e-4234-b3aa-d21224ccea88" Panel.Bounds="1217,8,49{5,2147483647},20{5,2147483647}" />
+                                <Button Text="Login" FontFamily="Calibri" Id="f549ab1f-4b7e-4234-b3aa-d21224ccea88" Panel.Bounds="1217,8,49{5,2147483647},20{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Message Registered User.screen" Created="11/06/2017 21:36:50" Id="ba5545a2-1f42-4b69-be78-81c0a31fcfcf">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="ef08f6ac-17fd-48b6-b49b-32265f0c14e5">
