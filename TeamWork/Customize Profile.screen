@@ -1,6 +1,6 @@
-﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
 <Page xmlns="http://prototypes.infragistics.com/"
-                                                                                   Id="0812fde7-ef07-436b-b032-798c88f41b5d">
+                                                                                Id="0812fde7-ef07-436b-b032-798c88f41b5d">
     <Page.Content>
         <Content Width="1280" Height="1024" Id="e13a8787-7945-4de0-9c24-437669b50c1d">
             <Content.Layers>
@@ -87,22 +87,22 @@
                         </Add>
                         <Add Property="Panel.Children" Target="98e01ddc-221b-47f8-8ef9-0ef3cc35b8d9">
                             <Add.Item>
-                                <Label RichText="Nickname:" FontSize="18" FontFamily="Calibri" Id="deb45490-b4f8-4d68-92a2-ecb0aa0c6088" Panel.Bounds="470,159,5*{5,2147483647},5*{5,2147483647}" />
+                                <Label RichText="Nickname:" FontSize="18" FontFamily="Calibri" Id="deb45490-b4f8-4d68-92a2-ecb0aa0c6088" Panel.Bounds="459,159,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="98e01ddc-221b-47f8-8ef9-0ef3cc35b8d9">
                             <Add.Item>
-                                <Label RichText="First Name:" FontSize="18" FontFamily="Calibri" Id="f6bf3d0b-9f4a-4d45-bf3b-f78be09ef073" Panel.Bounds="470,207,5*{5,2147483647},5*{5,2147483647}" />
+                                <Label RichText="First Name:" FontSize="18" FontFamily="Calibri" Id="f6bf3d0b-9f4a-4d45-bf3b-f78be09ef073" Panel.Bounds="459,207,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="98e01ddc-221b-47f8-8ef9-0ef3cc35b8d9">
                             <Add.Item>
-                                <Label RichText="Last Name:" FontSize="18" FontFamily="Calibri" Id="3b2540a2-36ba-4d7b-93e1-a03a63b23660" Panel.Bounds="467,255,5*{5,2147483647},5*{5,2147483647}" />
+                                <Label RichText="Last Name:" FontSize="18" FontFamily="Calibri" Id="3b2540a2-36ba-4d7b-93e1-a03a63b23660" Panel.Bounds="459,255,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="98e01ddc-221b-47f8-8ef9-0ef3cc35b8d9">
                             <Add.Item>
-                                <TextBox Text="Nicname" FontFamily="Calibri" Id="e6d10c56-d9bb-43e6-b93a-b707cd9f5c4f" Panel.Bounds="563,159,120{5,2147483647},5*{5,2147483647}" />
+                                <TextBox Text="Nickname" FontFamily="Calibri" Id="e6d10c56-d9bb-43e6-b93a-b707cd9f5c4f" Panel.Bounds="563,159,120{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="98e01ddc-221b-47f8-8ef9-0ef3cc35b8d9">
@@ -200,6 +200,75 @@
                                 <Label RichText="User@email.com" FontSize="18" FontFamily="Calibri" Id="3e9b7ac9-dbd7-4845-bfad-a3ae62c301d9" Panel.Bounds="283,529,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
+                        <Add Property="Panel.Children" Target="98e01ddc-221b-47f8-8ef9-0ef3cc35b8d9">
+                            <Add.Item>
+                                <Label RichText="Interests: " FontSize="18" FontFamily="Calibri" Id="3a41debd-8578-4334-870a-0749ccd9953a" Panel.Bounds="459,296,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="98e01ddc-221b-47f8-8ef9-0ef3cc35b8d9">
+                            <Add.Item>
+                                <TextBox Text="Personal Interests" FontFamily="Calibri" Id="d901dae5-b667-451b-b647-7e6ab38be4fd" Panel.Bounds="563,296,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="98e01ddc-221b-47f8-8ef9-0ef3cc35b8d9">
+                            <Add.Item>
+                                <Image SourcePath="assets/Instagram-logo.png" Id="1927f2d5-8581-4373-befa-f30a92b23bdd" Panel.Bounds="496,333,51{5,2147483647},51{5,2147483647}">
+                                    <Image.Click>
+                                        <CommandOpenUrl Url="http://instagram.com" Created="11/07/2017 15:36:54" Id="47208fab-3998-4d37-a997-8e8945be42d7" />
+                                    </Image.Click>
+                                </Image>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="98e01ddc-221b-47f8-8ef9-0ef3cc35b8d9">
+                            <Add.Item>
+                                <Image SourcePath="assets/580b57fcd9996e24bc43c53e.png" Id="c338db12-ca14-4da3-91df-9637a5d296b6" Panel.Bounds="543,333,51{5,2147483647},51{5,2147483647}">
+                                    <Image.Click>
+                                        <CommandOpenUrl Url="http://twitter.com" Created="11/07/2017 15:50:47" Id="826c3b7a-33f8-408e-b3c1-756b567f7f19" />
+                                    </Image.Click>
+                                </Image>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="98e01ddc-221b-47f8-8ef9-0ef3cc35b8d9">
+                            <Add.Item>
+                                <Image Id="dbe9b3e9-9985-48b9-bd84-ed5648edc87c" Panel.Bounds="-25,252,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="98e01ddc-221b-47f8-8ef9-0ef3cc35b8d9">
+                            <Add.Item>
+                                <Image SourcePath="assets/facebook_logos_PNG19753.png" Id="45f112a4-a39d-45cd-8d30-1a81933e6690" Panel.Bounds="450,333,51{5,2147483647},51{5,2147483647}">
+                                    <Image.Click>
+                                        <CommandOpenUrl Url="http://facebook.com" Created="11/07/2017 15:49:56" Id="81600b72-e363-4861-bd58-0c19f571008b" />
+                                    </Image.Click>
+                                </Image>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="98e01ddc-221b-47f8-8ef9-0ef3cc35b8d9">
+                            <Add.Item>
+                                <Button Text="Save changes" FontSize="18" FontFamily="Calibri" Id="ffa86b3c-a245-4b77-b964-984e171c4a49" Panel.Bounds="495,877,120{5,2147483647},49{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandSwitchTo SceneId="8a61eeff-cc3b-4601-ad0f-499af2130beb" Created="11/07/2017 15:53:49" Id="04ffe08d-46e6-401c-8103-e3ae296b8ad5" />
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped/Clicked Save changes" StateGroup="d8fba9c1-f64e-4b08-bd68-935057c58ea6" ParentScene="d8fba9c1-f64e-4b08-bd68-935057c58ea6" Created="11/07/2017 15:53:49" Id="8a61eeff-cc3b-4601-ad0f-499af2130beb">
+            <Scene.KeyFrames>
+                <KeyFrame Id="3234f934-c740-472c-8464-3f2ba7751540">
+                    <KeyFrame.Operations>
+                        <Add Property="Control.Click" Target="ffa86b3c-a245-4b77-b964-984e171c4a49">
+                            <Add.Item>
+                                <CommandNavigate Screen="/Home Page.screen" Created="11/07/2017 15:55:57" Id="4046d2fa-dd25-4e51-aaec-d56056f8745a">
+                                    <CommandNavigate.Transition>
+                                        <NavigateTransition Duration="0" />
+                                    </CommandNavigate.Transition>
+                                </CommandNavigate>
+                            </Add.Item>
+                        </Add>
+                        <Remove Target="04ffe08d-46e6-401c-8103-e3ae296b8ad5" />
                     </KeyFrame.Operations>
                 </KeyFrame>
             </Scene.KeyFrames>
